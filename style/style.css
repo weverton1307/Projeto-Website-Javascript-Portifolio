@@ -22,3 +22,14 @@ header > .interface{
     align-items: center;
     justify-content: space-between;
 }
+header a{
+    color: #fff;
+    text-decoration: none;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
