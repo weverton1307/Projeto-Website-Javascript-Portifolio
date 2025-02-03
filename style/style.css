@@ -1,15 +1,24 @@
-/* Estilos geral */
+/* Estilo geral */
 *{
     margin: 0;
     padding: 0;
-    box-sizing:border-box
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
 }
 body{
-    background-color: #1D1D1D;
+    background-color: #212121;
     height: 100vh;
 }
 .interface{
     max-width: 1280px;
     margin: 0 auto;
 }
-/*  */
+/* Estilo do cabeçalho */
+header{
+    padding: 40px 4%;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
