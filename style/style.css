@@ -6,7 +6,7 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-    background-color: #212121;
+    background-color: #000000;
     height: 100vh;
 }
 .interface{
@@ -43,7 +43,7 @@ header .btn-contato button{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #5EC8FF;
+    background-color: #00F008;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
