@@ -30,6 +30,7 @@ button:hover{
     box-shadow: 0px 0px 8px #2A45C6;
     transform: scale(1.05);
 }
+
 /* Estilo do cabeçalho */
 header{
     padding: 40px 4%;
@@ -68,6 +69,7 @@ section.topo-do-site .flex{
 .topo-do-site h1{
     color: white;
     line-height: 40px;
+    text-align: justify;
 }
 .topo-do-site h1 .cor{
     color: #00F008;
@@ -145,13 +147,14 @@ section.sobre .flex{
 justify-content:space-around;
 .habilidades-box {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Ajusta os botões automaticamente */
-    gap: 20px; /* Espaço entre os botões */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    gap: 20px;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    max-width: 1000px; /* Limita a largura para organização */
-    margin: auto; /* Centraliza a seção */
+    max-width: 1000px; 
+    margin: auto; 
+    margin-bottom: 30px;
 }
 
 .btn-habilidade {
@@ -193,4 +196,8 @@ justify-content:space-around;
 .habilidades h2 span{
     color: #00F008;
 }
-
+/* Estilo da sessão projetos */
+section.projetos{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1f;
+}
