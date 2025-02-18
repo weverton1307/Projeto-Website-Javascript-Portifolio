@@ -1,22 +1,26 @@
 /* Estilo geral */
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-body{
+
+body {
     background-color: #000000;
     height: 100vh;
 }
-.interface{
+
+.interface {
     max-width: 1280px;
     margin: 0 auto;
 }
-.flex{
+
+.flex {
     display: flex;
 }
-.btn-contato button{
+
+.btn-contato button {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
@@ -26,112 +30,138 @@ body{
     cursor: pointer;
     transition: .2s;
 }
-button:hover{
+
+button:hover {
     box-shadow: 0px 0px 8px #2A45C6;
     transform: scale(1.05);
 }
 
 /* Estilo do cabeçalho */
-header{
+header {
     padding: 40px 4%;
 }
-header > .interface{
+
+header>.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-header a{
+
+header a {
     color: #7d7d7d;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
 }
-header a:hover{
+
+header a:hover {
     color: #fff;
     transform: scale(1.10);
 }
-header nav ul{
+
+header nav ul {
     list-style-type: none;
 }
-header nav ul li{
+
+header nav ul li {
     display: inline-block;
     padding: 0 40px;
 }
+
 /* Estilo do topo do site */
-section.topo-do-site{
+section.topo-do-site {
     padding: 40px 4x;
 }
-section.topo-do-site .flex{
+
+section.topo-do-site .flex {
     align-items: center;
     justify-content: center;
     gap: 200px;
 }
-.topo-do-site h1{
+
+.topo-do-site h1 {
     color: white;
     line-height: 40px;
     text-align: justify;
 }
-.topo-do-site h1 .cor{
+
+.topo-do-site h1 .cor {
     color: #00F008;
 }
-.topo-do-site  h1 .nome-java{
+
+.topo-do-site h1 .nome-java {
     color: #209bc7;
 }
-.topo-do-site  h1 .nome-java{
+
+.topo-do-site h1 .nome-java {
     color: #209bc7;
 }
-.topo-do-site  h1 .nome-javascript{
+
+.topo-do-site h1 .nome-javascript {
     color: #e8e117;
 }
+
 .btn-contato .btn-whatsapp {
     display: flex;
-    align-items: center;  
+    align-items: center;
     justify-content: center;
     gap: 10px;
 }
+
 .btn-contato a {
-    text-decoration: none; 
+    text-decoration: none;
 }
-.topo-do-site .txt-topo-site h1{
+
+.topo-do-site .txt-topo-site h1 {
     margin: 40px 0;
 }
-.topo-do-site .img-topo-site img{
+
+.topo-do-site .img-topo-site img {
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
-@keyframes flutuar{
-    0%{
+
+@keyframes flutuar {
+    0% {
         top: 0;
     }
-    100%{
+
+    100% {
         top: 30px;
     }
 }
+
 /* Estilo da sessão sobre */
-section.sobre{
-    padding: 220px 4%;   
+section.sobre {
+    padding: 220px 4%;
 }
-section.sobre .flex{
+
+section.sobre .flex {
     align-items: center;
     gap: 60px;
 }
-.sobre .txt-sobre{
+
+.sobre .txt-sobre {
     color: white;
 }
-.sobre .txt-sobre h2{
+
+.sobre .txt-sobre h2 {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 30px;
 }
-.sobre .txt-sobre h2 span{
+
+.sobre .txt-sobre h2 span {
     display: block;
     color: #00F008;
 }
-.sobre .txt-sobre P{
+
+.sobre .txt-sobre P {
     margin: 20px 0;
     text-align: justify;
 }
-.sobre .txt-sobre .btn-social button{
+
+.sobre .txt-sobre .btn-social button {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -142,27 +172,42 @@ section.sobre .flex{
     cursor: pointer;
     transition: .2s;
 }
+
 /* Estilo da sessão habilidades */
-.habilidades .flex{
-justify-content:space-around;
-.habilidades-box {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    max-width: 1000px; 
-    margin: auto; 
-    margin-bottom: 30px;
+.habilidades .flex {
+    justify-content: space-around;
+
+    .habilidades-box {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        max-width: 1000px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .btn-habilidade {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 15px 20px;
+        font-size: 18px;
+        font-weight: 600;
+        background-color: #00F008;
+        border: 0;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: .2s;
+        text-align: center;
+    }
 }
 
-.btn-habilidade {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 15px 20px;
+.btn-java {
+    padding: 6px 7px;
     font-size: 18px;
     font-weight: 600;
     background-color: #00F008;
@@ -170,34 +215,52 @@ justify-content:space-around;
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
-    text-align: center;
-}
-}
-.btn-java {
-    padding: 6px 7px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: #00F008; 
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: .2s;
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.habilidades h2{
+
+.habilidades h2 {
     color: white;
     text-align: center;
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 30px;
 }
-.habilidades h2 span{
+
+.habilidades h2 span {
     color: #00F008;
 }
+
 /* Estilo da sessão projetos */
-section.projetos{
+section.projetos {
     padding: 80px 4%;
     box-shadow: 0 0 40px 10px #ffffff1f;
+}
+
+section.projetos h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+section.projetos h2 span {
+    color: #00F008;
+}
+
+.projetos-img {
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: 100% 0%;
+    cursor: pointer;
+    transition: 8s;
+    border-radius: 40px;
+    position: relative;
+}
+.projetos-img:hover{
+    background-position: 100% 100%; 
 }
