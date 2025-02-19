@@ -35,6 +35,12 @@ button:hover {
     box-shadow: 0px 0px 8px #2A45C6;
     transform: scale(1.05);
 }
+.nome-java {
+    color: #209bc7;
+}
+.nome-javascript {
+    color: #e8e117;
+}
 
 /* Estilo do cabeçalho */
 header {
@@ -87,18 +93,6 @@ section.topo-do-site .flex {
 
 .topo-do-site h1 .cor {
     color: #00F008;
-}
-
-.topo-do-site h1 .nome-java {
-    color: #209bc7;
-}
-
-.topo-do-site h1 .nome-java {
-    color: #209bc7;
-}
-
-.topo-do-site h1 .nome-javascript {
-    color: #e8e117;
 }
 
 .btn-contato .btn-whatsapp {
@@ -249,18 +243,32 @@ section.projetos h2 {
 section.projetos h2 span {
     color: #00F008;
 }
+section.projetos .flex{
+    justify-content: center;
+    gap: 100px;
+}
+.projeto-box{
+    width: 450px;
+    padding: 20px;
+}
+.projeto-box h3{
+    color: white;
+}
+.projeto-box h3 span{
+    color: #00F008;
+    text-align: center;
+}
+.projeto-box p{
+    color: white;
+text-align: justify;
+}
+.projeto-box a{
+    color: #00F008;
+    text-decoration: none;
+    transition: .2s; 
+}
+.projeto-box img{
+    margin: 10px 0;
+}
 
-.projetos-img {
-    width: 400px;
-    height: 400px;
-    margin-top: 20px;
-    background-size: cover;
-    background-position: 100% 0%;
-    cursor: pointer;
-    transition: 8s;
-    border-radius: 40px;
-    position: relative;
-}
-.projetos-img:hover{
-    background-position: 100% 100%; 
-}
+
