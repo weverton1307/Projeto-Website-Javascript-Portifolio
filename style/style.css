@@ -250,6 +250,14 @@ section.projetos .flex{
 .projeto-box{
     width: 450px;
     padding: 20px;
+    border-radius: 20px;
+    margin-top: 40px;
+    transition: .2s;
+
+}
+.projeto-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff80;
 }
 .projeto-box h3{
     color: white;
