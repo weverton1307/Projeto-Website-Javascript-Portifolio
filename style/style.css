@@ -155,7 +155,7 @@ section.sobre .flex {
     text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button {
+.btn-social button {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -347,4 +347,27 @@ form .btn-enviar input{
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
+}
+/* Estilo da sessão rodapé */
+footer{
+    padding: 30px 4%;
+    box-shadow: 0 0 20px #ffffff80;
+}
+footer .flex{
+    justify-content: space-between;
+    align-items: center;
+}
+footer .line-footer{
+    padding: 20px 0;
+}
+.borda{
+    border-top: 2px solid #00F008;
+}
+footer .line-footer p i{
+    color: #00F008;
+    font-size: 22px;
+}
+footer .line-footer p a{
+    color: #fff;
+    text-decoration: none;
 }
